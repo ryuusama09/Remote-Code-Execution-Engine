@@ -1,0 +1,30 @@
+version: "2.3"
+services:
+  rabbitmq:
+    image: "rabbitmq"
+    restart: always
+
+  server:
+    build: ./server
+    restart: always
+    ports:
+      - "7000:7000"
+    depends_on:
+      - rabbitmq
+      
+  worker:
+    build: ./worker
+    restart: always
+    pids_limit: 60
+    cpus: 1
+    mem_limit: 150M
+    depends_on:
+      - rabbitmq
+      - server
+    volumes:      
+      - /var/run/docker.sock:/var/run/docker.sock
+      - shared:/app/shared
+
+volumes:
+  shared:
+    external: true
