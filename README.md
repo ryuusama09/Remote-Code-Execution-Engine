@@ -36,3 +36,13 @@ The software has been developed using the following packages:
 <li>Docker</li>
 <li> Amazon-S3</li>
 </ul>
+
+##Download
+To download the project use the following command 
+<br>
+```bash
+#clone the project
+$ git clone https://github.com/ryuusama09/Remote-Code-Execution-Engine.git
+```
+## Setup
+
