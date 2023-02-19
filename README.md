@@ -46,3 +46,10 @@ $ git clone https://github.com/ryuusama09/Remote-Code-Execution-Engine.git
 ```
 ## Setup
 
+## Support
+<a href="https://www.buymeacoffee.com/ryuusama9" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+<br>
+RCE is an [emailware](https://en.wiktionary.org/wiki/emailware). If you liked the project and would like to comment about it or would like to suggest
+any improvements then contact me at <shahh8138@gmail.com
+
+
