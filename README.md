@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="#Credits>Credits</a> •
+  <a href="#Credits">Credits</a> •
   <a href="#Features">Features</a> •
   <a href="#Download">Download</a> •
    <a href="#Setup">Setup</a> •
