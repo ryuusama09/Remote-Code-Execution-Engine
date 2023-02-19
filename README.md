@@ -2,7 +2,7 @@
   <br>
  <img src="https://user-images.githubusercontent.com/80237556/219677696-38938035-dd29-4a67-a541-09923ffcdf8a.jpeg" width="500">
   <br>
-  RCEE
+  RCE
   <br>
 </h1>
 <h4 align="center">A Code engine built to simplify remote code execution.</h4>
