@@ -37,7 +37,9 @@ The software has been developed using the following packages:
 <li> Amazon-S3</li>
 </ul>
 
-##Download
+## Features
+
+## Download
 To download the project use the following command 
 <br>
 ```bash
