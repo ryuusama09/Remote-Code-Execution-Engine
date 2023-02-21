@@ -72,6 +72,19 @@ $ docker build --no-cache -t rce/spawner worker/images/cpp
 # engine trigger command
 $ docker-compose up --build
 ```
+After running all the commands step-wise , you should be able to see that servers for ``server``, ``worker`` and ``rabbitmq`` should be running
+<br>
+![image](https://user-images.githubusercontent.com/80237556/220338752-c9a9a9d0-e20f-45b1-8c14-9fd6e01397ec.png)
+<br>
+<h3 align = "center"> Testing </h3>
+for this you are required to have amazon-S3 subscription , whehre the input file and source code file are uploaded.
+the post requests need to be sent to <tex>http://localhost:7000/api/submit</tex>. the body contains :
+<ul>
+  <li>"src" : amazon-s3-source-code-link</li>
+   <li>"stdin" : amazon-s3-input-file-link</li>
+  <li>"lang" : language of the source code</li>
+</ul>
+
 
 
 ## Support
