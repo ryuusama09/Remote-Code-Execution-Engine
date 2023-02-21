@@ -50,6 +50,15 @@ To download the project use the following command
 $ git clone https://github.com/ryuusama09/Remote-Code-Execution-Engine.git
 ```
 ## Setup
+once the project is cloned on your local system , you need to install the dependencies.
+make sure you have <a href ="https://www.docker.com/products/docker-desktop/">Docker-Desktop</a>
+
+```bash
+#installs dependencies
+$ npm install 
+```
+once all the dependencies , make sure you have you set the file ``script.sh`` in ``worker/images`` as ``LF`` type in the 
+text-editor of your choice. also make sure you have no ``docker-container`` running on port ``7000``
 
 ## Support
 <a href="https://www.buymeacoffee.com/ryuusama9" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
