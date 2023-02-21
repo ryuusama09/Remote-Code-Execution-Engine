@@ -59,6 +59,20 @@ $ npm install
 ```
 once all the dependencies , make sure you have you set the file ``script.sh`` in ``worker/images`` as ``LF`` type in the 
 text-editor of your choice. also make sure you have no ``docker-container`` running on port ``7000``
+<br>
+now we will setup the docker shared volume and build the rest of the application
+```bash
+# creates docker volume "shared"
+$ docker volume create shared
+
+# build images 
+$ docker build --no-cache -t rce/spawner worker/images/cpp
+
+# the above commands need to be executed only once while initially setting up the project
+# engine trigger command
+$ docker-compose up --build
+```
+
 
 ## Support
 <a href="https://www.buymeacoffee.com/ryuusama9" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
