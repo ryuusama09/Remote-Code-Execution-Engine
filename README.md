@@ -38,6 +38,9 @@ The software has been developed using the following packages:
 </ul>
 
 ## Features
+The general architecture of the engine
+![image](https://user-images.githubusercontent.com/80237556/220329329-024068d6-377d-47c2-bfab-4b10152edb51.png)
+
 
 ## Download
 To download the project use the following command 
